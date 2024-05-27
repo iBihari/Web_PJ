@@ -1,0 +1,93 @@
+
+/* Header-----------------------------------------------------------------------------------------*/
+body{
+  font-family: 'Nunito', sans-serif;
+}
+header{
+    position: fixed;
+    top:0; left: 0; right:0;
+    background:#333;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+header .logo{
+    font-size: 20px;
+    font-weight: bolder;
+    color:#fff;
+    text-transform: uppercase;
+}
+
+.logo span{
+    color: orange;
+}
+
+.menu a{
+    color:#fff;
+    font-size: 20px;
+    margin:0 .8rem;
+  }
+.icons i{
+    color:#fff;
+    font-size: 20px;
+    margin:0 .8rem;
+  }
+a{
+  text-decoration: none;
+}
+
+/* Body------------------------------------------------------------------------------------ */
+main{
+  margin-left: -8px;
+  margin-right: -8px;
+}
+.home{
+  margin-top: 63px;
+}
+
+/* Footer-------------------------------------------------------------------------------------*/
+footer{
+  background: #333;
+  margin-left:-8px;
+  margin-right:-8px;
+  color: white; 
+  padding-left: 250px;
+  padding-right: 250px;
+}
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.footer .box{
+  padding:20px 0;
+  flex:1 1 300px;
+}
+.footer .box h3{
+  font-size: 28px;
+  color:#fff;
+}
+.footer .box a{
+  display: block;
+  color: white;
+  font-size: 16px;
+  padding: 5px;
+}
+.footer .box p{
+  display: block;
+  color: white;
+  font-size: 16px;
+  padding: 5px;
+}
+footer h1{
+  text-align: center;
+}
+footer .my span{
+  color: orange;
+}
