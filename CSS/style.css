@@ -33,10 +33,32 @@ header .logo{
     font-size: 20px;
     margin:0 .8rem;
   }
+.icons {
+  display: flex;
+  font-size: 25px;
+}
 .icons i{
     color:#fff;
-    font-size: 20px;
-    margin:0 .8rem;
+    padding-top: 5px;
+    padding-left: 10px;
+  }
+.hero {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1px solid white;
+}
+.txt-search{
+    border-radius: 5px;
+    height: 30px;
+}
+.btn-search{
+    border-radius: 5px;
+    cursor: pointer;
+    height: 30px;
+    background-color: orange;
+}
+nav a:hover {
+    text-decoration:underline;
   }
 a{
   text-decoration: none;
