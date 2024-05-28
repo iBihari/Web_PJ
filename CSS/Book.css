@@ -77,11 +77,15 @@ table, th, td {
     width: 270px;
     margin-left: 30px;
 }
+.Ad img {
+    width: 270px;
+    padding-bottom: 15px;
+}
 .ad {
     border: 1px solid gainsboro;
     padding: 10px;
 }
-.ad img {
+.ads img {
     width: 250px;
     height: 170px;
 }
