@@ -109,6 +109,7 @@ a:hover{
 .Same {
     width: 1100px;
     margin: auto;
+    padding-bottom: 50px;
 }
 .sames {
     display: flex;
@@ -121,12 +122,17 @@ a:hover{
 .same img {
     width: 330px;
     height: 220px;
+    display:block;
+	transition: all .3s ease;
 }
-.same h4 {
+.same img:hover {
+    transform: scale(1.1);
+}
+.same a {
     padding-left: 20px;
     color: black;
 }
-.same h4:hover {
+.same a:hover {
     color:cyan;
 }
 .same .price_box {
@@ -136,4 +142,15 @@ a:hover{
 hr {
     width: 300px;
     border: 1px solid gainsboro;
+}
+.same .sale {
+    position:absolute;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    height: 40px;
+    width: 46px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 600;
 }
