@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.Tours {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    padding-top: 100px;
+}
+.Adv {
+    width: 270px;
+    margin-right: 30px;
+}
+.Ad li {
+    padding-bottom: 15px;
+    list-style: none;
+}
+.Ad a {
+    color: grey;
+    padding-left: 12px;
+}
+.Ad a:hover {
+    color: cyan;
+}
+
+.Loc {
+    padding-left: 600px;
+}
+.dropdown-container {
+    display: flex;
+    align-items: center;
+}
+.dropdown-label {
+    margin-right: 8px;
+}
+.dropdown {
+    padding: 4px;
+    font-size: 16px;
+}
+
+.headBox {
+    display: flex;
+}
+
+.Tour {
+    display: flex;
+    padding-bottom: 50px;
+}
+.tour {
+    width:280px;
+    margin-right: 30px;
+    border: 1px solid gainsboro;
+}
+.tour img {
+    width: 280px;
+    height: 180px;
+	display:block;
+	transition: all .3s ease;
+}
+.tour img:hover {
+    transform: scale(1.1);
+}
+.tour .sale {
+    position:absolute;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    height: 40px;
+    width: 46px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 600;
+}
+.tour a {
+    padding-left: 20px;
+    color: black;
+}
+.tour a:hover {
+    color:cyan;
+}
+.tour .price_box {
+    padding: 20px;
+    font-size:x-large;
+}
+
+hr {
+    width: 230px;
+    border: 1px solid gainsboro;
+}
+.special_price{
+    color:deepskyblue;
+    font-weight: 18px;
+}
+.old_price{
+    text-decoration: line-through;
+    font-size: 14px;
+}
