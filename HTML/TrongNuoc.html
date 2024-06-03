@@ -84,15 +84,23 @@
                         <div><h2>Trong nước</h2></div>
                         <div class="Loc">
                             <label class="dropdown_label">Lọc:</label>
-                            <select class="dropdown">
-                                <option value ="order">Trong nước</option>
-                                <option value="date-asc">Ngoài nước</option>
+                            <select class="dropdown" id="Select">
+                                <option value ="TrongNuoc.html">Trong nước</option>
+                                <option value="DatVe.html">Tất cả</option>
+                                <option value="NgoaiNuoc.html">Ngoài nước</option>
                                 <option value="name-asc">Tên A-Z</option>
                                 <option value="name-desc">Tên Z-A</option>
                                 <option value="price-asc">Giá thấp đến cao</option>
                                 <option value="price-desc">Giá cao đến thấp</option>
                             </select>
                         </div>
+                        <script>
+                            const select = document.getElementById('Select');
+                            select.addEventListener('change', function() {
+                                var selectedOption = this.value;
+                                window.location.href = selectedOption;
+                            });
+                        </script>    
                     </div>
                     <div class="mainBox">
                         <div class="Tour">
