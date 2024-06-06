@@ -105,7 +105,7 @@ section{
 header{
     position: fixed;
     top:0; left: 0; right:0;
-    background:#333;
+    background-color: rgba(28, 41, 48, 1.00);
     z-index: 1000;
     display: flex;
     align-items: center;
@@ -456,43 +456,73 @@ main{
   resize: none;
   width:100%;
 }
-/* Footer-------------------------------------------------------------------------------------*/
-footer{
-  background: #333;
-  margin-left:-8px;
-  margin-right:-8px;
-  color: white; 
-  padding-left: 250px;
-  padding-right: 250px;
+
+
+.signup{
+  padding: 50px 0;
 }
-.footer{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 25px;
-}
-.footer .box{
-  padding:20px 0;
-  flex:1 1 300px;
-}
-.footer .box h3{
-  font-size: 28px;
-  color:#fff;
-}
-.footer .box a{
-  display: block;
-  color: white;
-  font-size: 14px;
-  padding: 5px;
-}
-.footer .box p{
-  display: block;
-  color: white;
-  font-size: 14px;
-  padding: 5px;
-}
-footer h1{
+.signup-content{
+  background-color: #b6dcec;
+  padding: 30px 0;
+  align-items: center;
   text-align: center;
 }
-footer .my span{
-  color: orange;
+
+.signup-content input{
+  height: 35px;
+  width: 50%;
+  background-color: white;
+  border-radius: 10px;
+}
+
+/* Footer-------------------------------------------------------------------------------------*/
+
+.footer{
+  background-color: rgba(28, 41, 48, 1.00);
+  
+}
+
+.footer .box-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap:1.5rem;
+}
+
+.footer .box-container .box{
+  padding:1rem 0;
+  flex:1 1 25rem;
+}
+
+.footer .box-container .box h3{
+  font-size: 1.8rem;
+  padding:.7rem 0;
+  color:#fff;
+}
+
+.footer .box-container .box p{
+  font-size: 1.5rem;
+  padding:.7rem 0;
+  color:#eee;
+}
+
+.footer .box-container .box a{
+  display: block;
+  font-size: 1.5rem;
+  padding:.7rem 0;
+  color:#eee;
+}
+
+.footer .box-container .box a:hover{
+  color:var(--orange);
+  text-decoration: underline;
+}
+
+.footer .credit{
+  text-align: center;
+  padding:2rem 1rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+  font-weight: normal;
+  color:#fff;
+  border-top: .1rem solid rgba(255,255,255,.2);
 }
