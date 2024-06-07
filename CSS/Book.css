@@ -18,17 +18,28 @@ body {
     display:flex;
 }
 .Buy {
-    width: 500px;
+    width: 600px;
     padding: 20px;
     border-radius: 5px;
 }
-
 .Intro p {
     padding-left: 25px;
 }
 .Total {
     background-color: aliceblue;
     padding: 15px;
+    width: 500px;
+    display:flex;
+}
+.Tong {
+    text-align: left;
+    width:300px;
+    text-align: end;
+}
+.total {
+    width:200px;
+    color: red;
+    font-size: larger;
     text-align: end;
 }
 table, th, td {
@@ -36,8 +47,8 @@ table, th, td {
     padding-left: 30px;
     padding-bottom: 20px;
 }
-.count {
-    width: 50px;
+.adult, .kid {
+    width: 70px;
     height: 30px;
     text-align: center;
 }

@@ -82,23 +82,54 @@
                                     </tr>
                                     <tr>
                                         <td>Người lớn</td>
-                                        <td><input class="count" type="number" step="1" value="0" min="0"></td>
-                                        <td>23.000.000&#8363</td>
-                                        <td>23.000.000&#8363</td>
+                                        <td><input class="adult" type="number" step="1" value="0" min="0"></td>
+                                        <td class="price-adult">23.000.000&#8363</td>
+                                        <td class="total-adult">0&#8363</td>
                                     </tr>
                                     <tr>
                                         <td>Trẻ em</td>
-                                        <td><input class="count" type="number" step="1" value="0" min="0"></td>
-                                        <td>17.700.000&#8363</td>
-                                        <td>0&#8363</td>
+                                        <td><input class="kid" type="number" step="1" value="0" min="0"></td>
+                                        <td class="price-kid">17.700.000&#8363</td>
+                                        <td class="total-kid">0&#8363</td>
                                     </tr>
                                 </table>
-                                <div class="Total">Tổng tiền: 23.000.000&#8363</div>
+                                <div class="Total">
+                                    <div class="Tong">
+                                        <b class="Tong">Tổng tiền:</b>
+                                    </div> 
+                                    <div class="total">
+                                        <span id="total"><b>0&#8363</b></span></div>
+                                    </div>
                                 <div class="button">
                                     <input class="date" type="date">
                                     <button class="submit" type="button"><b>ĐẶT TOUR</b></button>
                                 </div>
                             </div>
+                            <script>
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    const adultCountInput = document.querySelector('.adult');
+                                    const childCountInput = document.querySelector('.kid');
+                                    const adultPrice = 23000000;
+                                    const childPrice = 17700000;
+                                
+                                    function calculateTotal() {
+                                        const adultCount = parseInt(adultCountInput.value) || 0;
+                                        const childCount = parseInt(childCountInput.value) || 0;
+                                
+                                        const adultTotal = adultCount * adultPrice;
+                                        const childTotal = childCount * childPrice;
+                                        const grandTotal = adultTotal + childTotal;
+                                
+                                        document.querySelector('.total-adult').textContent = adultTotal.toLocaleString() + '₫';
+                                        document.querySelector('.total-kid').textContent = childTotal.toLocaleString() + '₫';
+                                        document.getElementById('total').textContent = grandTotal.toLocaleString() + '₫';
+                                    }
+                                
+                                    adultCountInput.addEventListener('input', calculateTotal);
+                                    childCountInput.addEventListener('input', calculateTotal);
+                                    calculateTotal();
+                                });
+                            </script>
                         </div>
                     </div>
                 </div>
