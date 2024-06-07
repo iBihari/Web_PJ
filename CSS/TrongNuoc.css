@@ -79,9 +79,6 @@ body {
     padding-left: 20px;
     color: black;
 }
-.tour a:hover {
-    color:cyan;
-}
 .tour .price_box {
     padding: 20px;
     font-size:x-large;
