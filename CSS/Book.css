@@ -1,6 +1,5 @@
 body {
     font-family:system-ui, -apple-system;
-    /* line-height: 1.8; */
     margin: 0;
     padding: 0;
     background-color: white;
@@ -9,7 +8,7 @@ body {
 
 .Book {
     width: 1100px;
-    height: 600px;
+    height: 550px;
     margin:auto;
     background-color:floralwhite;
     padding: 15px;
@@ -27,8 +26,14 @@ body {
 .Intro p {
     padding-left: 25px;
 }
+.Intro ul {
+    margin-top: -10px;
+}
 .intro {
     width: 550px;
+    height: 90px;
+    font-size: smaller;
+    line-height: 1.5;
 }
 .Total {
     background-color: aliceblue;
