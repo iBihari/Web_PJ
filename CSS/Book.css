@@ -52,6 +52,9 @@ table, th, td {
     height: 30px;
     text-align: center;
 }
+.total-adult, .total-kid {
+    color:deepskyblue;
+}
 .button {
     margin-top: 20px;
     
