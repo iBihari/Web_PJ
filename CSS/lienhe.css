@@ -4,6 +4,7 @@ main{
     padding-top: 90px;
     display: flex;
     justify-content: center;
+    margin-bottom: 30px;
 }
 .main{
     width: 60%;
@@ -19,6 +20,7 @@ main{
 .info_contract{
     margin-top: 20px;
     display: flex;
+    justify-content: space-between;
     
 }
 .info_contract .lienlac{
@@ -38,6 +40,14 @@ main{
     display: flex;
     flex-wrap: wrap;
 }
+.info_contract .lienlac  button{
+    padding: 15px;
+    color: white;
+    background-color: orange;
+    font-size: 13px;
+    border-radius: 7px;
+    margin-left: 10px;
+}
 .info_contract .lienlac  form label{
     font-size: 13px;
 }
@@ -45,4 +55,18 @@ main{
     flex-wrap: wrap;
     flex:1 1 25rem;
     padding: 10px;
+}
+.info_contract .thongtin{
+    margin-top: 10px;
+}
+.info_contract .thongtin p{
+    margin-top: 10px;
+    font-size: 12px;    
+}
+
+.info_contract .thongtin .ttll span i{
+    padding: 5px;
+    border-radius: 50%;
+    color: white;
+    background-color: orange;
 }
