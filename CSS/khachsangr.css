@@ -5,6 +5,7 @@ main{
     width: 70%;
     margin: 0 auto;
     font-family: system-ui, -apple-system;
+    padding-top: 10px;
 }   
 main p{
     margin-top: 10px;
@@ -40,7 +41,7 @@ main p{
     position: relative;
     display: inline-flex;
     align-items: center;
-
+    font-size: 14px;    
 }
 
 .toancanh .filter .chonloc .listFilter label::before,
@@ -60,7 +61,7 @@ main p{
     background-color: orange;
 }
 .toancanh .filter .chonloc .listFilter [type="checkbox"]:checked ~ label::after{
-    width: 14px;
+    width: 13px;
     height: 7px;
     border-left: 3px solid white;
     border-bottom: 3px solid white;
@@ -70,5 +71,124 @@ main p{
 .toancanh .filter .chonloc .listFilter label::after{
     position: absolute;
     top: 4px;
-    left: 2px;
+    left: 3px;
+}
+
+.listKS{
+    width: 100%;
+    margin-left: 20px;
+}
+.listKS .filLocation{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid orange;
+    border-radius: 10px;
+}
+.listKS .filLocation .loca{
+    flex-wrap: wrap;    
+    flex:1 1 15px;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    cursor: pointer;
+    border-right: 1px solid orange;
+}
+.listKS .filLocation .loca.hnclicked{
+    background-color: orange;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: white;
+}
+.listKS .filLocation .loca.hpclicked{
+    background-color: orange;
+    color: white;
+}
+.listKS .filLocation .loca.hdclicked{
+    background-color: orange;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+}
+.listKS .filLocation .loca button{
+    font-size: 16px;
+    background-color: transparent;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.listKS .filLocation .loca:hover{
+    background-color: rgba(255, 165, 0,.2);
+}
+
+.listKSs{
+    margin-top: 10px;
+}
+.listKSs .boxPKS{
+    display: flex;
+    border: 1px solid orange;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+}
+.listKSs .boxPKS .img img{
+    border-radius: 5px;
+    width: 300px;
+    height: 200px;
+}
+.listKSs .boxPKS .mota{
+    margin-left: 10px;
+    flex: 1 1 300px;
+}
+.listKSs .boxPKS .name{
+    color: orange;
+    font-weight: bold;
+    font-size: 18px;
+}
+.listKSs .boxPKS .location{
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 13px;
+    font-weight: normal;
+}
+.listKSs .boxPKS .location p{
+    font-size: 13px;
+}
+
+
+.listKSs .boxPKS .opti{
+    margin-right: 10px;
+    text-align: right;
+    flex: 1 1 150px;
+}
+.listKSs .boxPKS .opti .sao span{
+    font-size: 14px;
+}
+.listKSs .boxPKS .opti .sao i{
+    font-size: 20px;
+    color: orange;
+}
+.listKSs .boxPKS .opti .gia{
+    margin-top: 40px;
+}
+.listKSs .boxPKS .opti .gia h2{
+    font-size: 25px;
+    color: orange;
+}
+.listKSs .boxPKS .opti .detail{
+    margin-top: 10px;
+}
+.listKSs .boxPKS .opti .detail button{
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: orange;
+    border: 2px solid orange;
+    cursor: pointer;
+}
+.listKSs .boxPKS .opti .detail button:hover{
+    background-color: rgba(255, 165, 0,.2);
+    color: orange;
 }
