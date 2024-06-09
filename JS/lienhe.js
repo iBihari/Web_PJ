@@ -15,7 +15,7 @@ function guilienhe(){
         return;
     }
 
-    showpopup("Gửi liên hệ thành công!");
+    showpopup("Cảm ơn bạn đã quan tâm. Chúng tôi sẽ phản hổi sớm nhất có thể");
     document.getElementById("name").value = "";
     document.getElementById("email").value = "";
     document.getElementById("content").value = "";
