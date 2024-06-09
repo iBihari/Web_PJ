@@ -3,14 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="shortcut icon"
         href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3SGbMtfIRavec9wBFZWscKGO-sUKoDaYs3g&s">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="/CSS/style.css">
-    <link rel="stylesheet" href="/CSS/lienhe.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <title>Travel</title>
+    <link rel="stylesheet" href="/CSS/khachsangr.css">
+    <title>Khách sạn giá rẻ</title>
 </head>
 
 <body>
@@ -39,75 +39,62 @@
         </div>
 
     </header>
-    
-<div class="login-form-container">
+    <div class="space"></div>
+    <div class="login-form-container">
 
-    <i class="fas fa-times" id="form-close"></i>
+        <i class="fas fa-times" id="form-close"></i>
 
-    <form action="">
-        <h3>login</h3>
-        <input type="email" class="box" placeholder="nhập email của bạn">
-        <input type="password" class="box" placeholder="nhập mật khẩu của bạn">
-        <input type="submit" value="đăng nhập" class="btn">
-        <input type="checkbox" id="remember">
-        <label for="remember">nhớ mật khẩu</label>
-        <p>quên mật khẩu? <a href="#">nhấn vào đây</a></p>
-        <p>bạn chưa có tài khoản? <a href="#">đăng kí ngay</a></p>
-    </form>
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="nhập email của bạn">
+            <input type="password" class="box" placeholder="nhập mật khẩu của bạn">
+            <input type="submit" value="đăng nhập" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">nhớ mật khẩu</label>
+            <p>quên mật khẩu? <a href="#">nhấn vào đây</a></p>
+            <p>bạn chưa có tài khoản? <a href="#">đăng kí ngay</a></p>
+        </form>
 
-</div>
-    <!-- ------------------------------------------------------------------- -->
+    </div>
+
     <main>
-        <div class="main">
-            <div class="title_name">
-                <h1>Liên hệ</h1>
-            </div>
-            <div class="map">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3449.6515881785926!2d105.74878335441582!3d20.959343848943252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313452efff394ce3%3A0x391a39d4325be464!2zVHLGsOG7nW5nIMSQ4bqhaSBI4buNYyBQaGVuaWthYQ!5e0!3m2!1svi!2s!4v1717809041941!5m2!1svi!2s"
-                    width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <div class="info_contract">
-                <div class="lienlac">
-                    <h1>Bạn cần tư vấn?</h1>
-                    <form>
-                        <div class="boxform">
-                            <input type="text" id="name" name="name" placeholder="  Tên của bạn" required> <br><br>
-                        </div>
-                        <div class="boxform">
-                            <input type="text" id="email" name="email" placeholder="  Địa chỉ email của bạn" required> <br><br>
-                        </div>
-                        <div class="boxform">
-                            <input type="text" id="content" name="content" placeholder="  Nội dung" required> <br><br>
-                        </div>
-                    </form>
-                    <button type="submit" onclick="guilienhe()">Gửi liên hệ</button>
+        <h1>Khách sạn giá rẻ tốt nhất tại Hà Nội</h1>
+        <p>Các khách sạn giá tốt nhất do chúng tôi lựa chọn</p>
+        <div class="toancanh">
+            <div class="filter">
+                <div class="chonloc">
+                    <h2>Chọn lọc theo:</h2>
+                    <p>Đánh giá của khách hàng</p>
+                    <ul class="listFilter">
+                        <li>
+                            <input type="checkbox" id="s5">
+                            <label for="s5">5 sao</label>
+                        </li>
+                        <li><input type="checkbox" id="s5">
+                            <label for="s4">4 sao</label>
+                        </li>
+                        <li><input type="checkbox" id="s5">
+                            <label for="s3">3 sao</label>
+                        </li>
+                        <li><input type="checkbox" id="s5">
+                            <label for="s2">2 sao</label>
+                        </li>
+                        <li><input type="checkbox" id="s5">
+                            <label for="s1">1 sao</label>
+                        </li>
+                        <li><input type="checkbox" id="s5">
+                            <label for="s0">Dưới 1 sao</label>
+                        </li>
+                    </ul>
                 </div>
-                <div class="thongtin">
-                    <h1>TRAVEL GO</h1>
-                    <p>Tổng hợp những chương trình tour theo tháng, du lịch vòng quanh thế giới với mức chi phí cực rẻ. Để nhận ngay những thông tin chương trình tour hot, Sale. Quý khách hàng vui lòng nhập thông tin email tại đây ! Thanks</p>
-                    <div class="ttll">
-                        <p>
-                            <span><i class="fa fa-home" arial-hidden="true"></i></span>
-                            P. Nguyễn Trác, Yên Nghĩa, Hà Đông, Hà Nội, Việt Nam
-                        </p>
-                        <p>
-                            <span><i class="fa fa-phone" arial-hidden="true"></i></span>
-                            1234567890
-                        </p>
-                        <p>
-                            <span><i class="fa fa-envelope" arial-hidden="true"></i></span>
-                            phen@support.com
-                        </p>
-                    </div>
-                </div>
+            </div>
+
+            <div class="listKS">
             </div>
         </div>
-        <div class="popup" id="popup"> Cảm ơn bạn đã quan tâm. Chúng tôi sẽ phản hổi sớm nhất có thể</div>
     </main>
-    
-    <!-- ------------------------------------------------------------------- -->
+
+    <div class="space"></div>
     <section class="footer">
 
         <div class="box-container">
@@ -172,7 +159,7 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <script src="/JS/script.js"></script>
-    <script src="/JS/lienhe.js"></script>
+    <script src="/JS/khachsangr.js"></script>
 </body>
 
 </html>

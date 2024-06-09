@@ -1,0 +1,50 @@
+.space{
+    margin: 80px;
+}
+main{
+    width: 70%;
+    margin: 0 auto;
+    font-family: system-ui, -apple-system;
+}   
+main p{
+    margin-top: 10px;
+    font-size: 12px;
+}
+.toancanh{
+    display: flex;
+    margin-top: 10px;   
+}
+.toancanh .filter{
+    border: 1px solid orange;
+    border-radius: 10px;
+}
+.toancanh .filter .chonloc{
+    padding: 10px;
+}
+.toancanh .filter .chonloc h2{
+    font-size: 200%;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    border-bottom: 1px solid orange;
+}
+.toancanh .filter .chonloc p{
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.toancanh .filter .chonloc .listFilter{
+    list-style: none;
+}
+.toancanh .filter .chonloc .listFilter label::before,
+.toancanh .filter .chonloc .listFilter label::after{
+    content: "";
+    display: inline-block;
+}
+
+.toancanh .filter .chonloc .listFilter label::before{
+    width: 16px;
+    height: 16px;
+    border: 1px solid orange;
+    border-radius: 3px;    
+}
