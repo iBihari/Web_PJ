@@ -36,6 +36,13 @@ main p{
 .toancanh .filter .chonloc .listFilter{
     list-style: none;
 }
+.toancanh .filter .chonloc .listFilter label{
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+
+}
+
 .toancanh .filter .chonloc .listFilter label::before,
 .toancanh .filter .chonloc .listFilter label::after{
     content: "";
@@ -43,8 +50,25 @@ main p{
 }
 
 .toancanh .filter .chonloc .listFilter label::before{
-    width: 16px;
-    height: 16px;
+    width: 20px;
+    height: 20px;
     border: 1px solid orange;
     border-radius: 3px;    
+    margin-right: 10px;
+}
+.toancanh .filter .chonloc .listFilter [type="checkbox"]:checked ~ label::before{
+    background-color: orange;
+}
+.toancanh .filter .chonloc .listFilter [type="checkbox"]:checked ~ label::after{
+    width: 14px;
+    height: 7px;
+    border-left: 3px solid white;
+    border-bottom: 3px solid white;
+    rotate: -45deg;
+}
+
+.toancanh .filter .chonloc .listFilter label::after{
+    position: absolute;
+    top: 4px;
+    left: 2px;
 }
