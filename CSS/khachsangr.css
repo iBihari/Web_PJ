@@ -110,11 +110,11 @@ main p{
     border-bottom-right-radius: 5px;
     color: white;
 }
-.listKS .filLocation .loca button{
+.listKS .filLocation .loca p{
     font-size: 16px;
     background-color: transparent;
     cursor: pointer;
-    padding-top: 10px;
+    padding-top: 5px;
     padding-bottom: 5px;
 }
 .listKS .filLocation .loca:hover{
@@ -133,6 +133,10 @@ main p{
     padding-bottom: 10px;
     margin-top: 5px;
 }
+.listKSs .boxPKS.none{
+    display: none;
+}
+
 .listKSs .boxPKS .img img{
     border-radius: 5px;
     width: 300px;
