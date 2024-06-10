@@ -51,6 +51,7 @@ body {
     color: red;
     font-size: larger;
     text-align: end;
+    font-weight: 18px;
 }
 table, th, td {
     text-align: center;
@@ -63,7 +64,7 @@ table, th, td {
     text-align: center;
 }
 .total-adult, .total-kid {
-    color:deepskyblue;
+    color:orange;
 }
 .button {
     margin-top: 20px;
@@ -73,8 +74,7 @@ table, th, td {
     margin-left: 90px;
     width: 200px;
     height: 30px;
-    background-color:cyan;
-    
+    background-color:orange;
     color:aliceblue;
     cursor: pointer;
 }
@@ -123,10 +123,10 @@ table, th, td {
     color:grey;
 }
 a:hover{
-    color:cyan;
+    color:deepskyblue;
 }
 .special_price{
-    color:deepskyblue;
+    color:orange;
     font-weight: 18px;
 }
 .old_price{
