@@ -157,7 +157,10 @@ main p{
     font-size: 13px;
     font-weight: normal;
 }
-.listKSs .boxPKS .location p{
+.listKSs .boxPKS .location i{
+    color: orange;
+}
+.listKSs .boxPKS .mota .description p{
     font-size: 13px;
 }
 

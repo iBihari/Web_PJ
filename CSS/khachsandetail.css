@@ -1,0 +1,98 @@
+.space{
+    margin: 80px;
+}
+.spaces{
+    margin-top: 50%;
+}
+main{
+    width: 70%;
+    margin: 0 auto;
+    font-family: system-ui, -apple-system;
+    padding-top: 10px;
+}   
+main p{
+    margin-top: 10px;
+    font-size: 14px;
+}
+main p i{
+    color: orange;
+}
+.toancanh{
+    margin-top: 10px;       
+}
+.toancanh .imgVlocat{
+    display: flex;
+}
+.toancanh .imgVlocat .img{
+    margin-right: 20px;
+    width: 60%;
+    height: 500px;
+}
+.toancanh .imgVlocat .img img{
+    width: 100%;
+    height: 100%;
+}
+
+.toancanh .imgVlocat .locat{
+    width: 35%;
+}
+
+.toancanh .des{
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: 1px solid orange;
+}
+
+.toancanh .des .conte{
+    width: 60%;
+    margin-right: 20px;
+    
+}
+.toancanh .des .noibat{
+    padding: 10px;
+    width: 25%;
+    background-color: rgba(255, 165, 0,.2);
+    border-radius: 10px;
+}
+.toancanh .des .noibat p{
+    font-size: 13px;
+}
+.toancanh .des .noibat h3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.toancanh .des .noibat p i{
+    font-size: 20px;
+    margin-right: 10px;
+    justify-content: center;
+}
+
+.toancanh .bonus{
+}
+.toancanh .bonus h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.toancanh .bonus .diff{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.toancanh .bonus .diff .boxdiff{
+    border-radius: 10px;
+    flex: 0 1 100px;
+}
+.toancanh .bonus .diff .boxdiff img{
+    border-radius: 10px;
+    width: 300px;
+}
+.toancanh .bonus .diff .boxdiff p{
+
+    padding-bottom: 10px;
+}
+.toancanh .bonus .diff .boxdiff h2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: orange;
+}
